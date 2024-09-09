@@ -18,6 +18,8 @@ namespace Global.Audio
         private float _musicVolume;
         private float _soundVolume;
 
+        private int _index;
+
         public float Music => _musicVolume;
         public float Sound => _soundVolume;
 
@@ -79,8 +81,10 @@ namespace Global.Audio
                 source.Play();
             }
 
-            _soundSources[0].clip = clip;
-            _soundSources[0].Play();
+            _soundSources[_index].clip = clip;
+            _soundSources[_index].Play();
+
+            _index = (_index + 1) % _soundSources.Length;
         }
 
         public void PlayLoopMusic(AudioClip clip)
@@ -89,5 +93,5 @@ namespace Global.Audio
             _musicSource.clip = clip;
             _musicSource.Play();
         }
-    } 
+    }
 }
