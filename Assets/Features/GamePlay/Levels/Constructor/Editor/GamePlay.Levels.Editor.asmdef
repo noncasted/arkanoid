@@ -1,0 +1,19 @@
+{
+    "name": "GamePlay.Levels.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6ab62fa3a26a4114ba44fa891b5fa123",
+        "GUID:f039cb8c565843dba6da5b3c1ccde7d6"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

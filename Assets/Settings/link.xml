@@ -1,0 +1,6 @@
+<linker>
+
+    <assembly fullname="Features" preserve="all" />
+    <assembly fullname="GamePlay.Levels.Editor" preserve="all" />
+
+</linker>

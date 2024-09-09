@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21cba701fc304f938f5ab28b35054650, type: 3}
+  m_Name: GameSoundsOptions
+  m_EditorClassIdentifier: 
+  _assetId: 15
+  _collision: {fileID: 8300000, guid: 955cde13ca94f5c499e7fbb1aea37c95, type: 3}
+  _pickup: {fileID: 8300000, guid: 34ff3787399495b41ae828448dc24218, type: 3}
